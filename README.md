@@ -55,3 +55,7 @@ Na stránce jsou použity pouze food-1, food-3, food-8 a food-9; fotografie s vi
 ## Design v4
 Světlý krémový úvod a hlavička, zelený text s teplým terakotovým akcentem, fotografie bez tmavého překryvu. Vyřazena food-9 z nabídky i galerie, nahrazena food-3. Desktopový úvod byl vizuálně ověřen.
 
+
+## Design v5
+Afternoon tea má nový detail sendvičů, jednotlivé karty nabídky nyní používají různé snímky. Galerie rozšířena na šest odlišných fotografií včetně ovoce, plněných housek a sendvičů. Nový celkový záběr s viditelným topením nebyl použit. Build, desktopová galerie a zvětšení nové fotografie ovoce ověřeny.
+

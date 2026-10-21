@@ -59,3 +59,7 @@ Světlý krémový úvod a hlavička, zelený text s teplým terakotovým akcent
 ## Design v5
 Afternoon tea má nový detail sendvičů, jednotlivé karty nabídky nyní používají různé snímky. Galerie rozšířena na šest odlišných fotografií včetně ovoce, plněných housek a sendvičů. Nový celkový záběr s viditelným topením nebyl použit. Build, desktopová galerie a zvětšení nové fotografie ovoce ověřeny.
 
+
+## Design v8
+Nový ovocný úvod s vycentrovaným titulkem a lokálním ztmavením pro čitelnost. Obměněné fotografie Afternoon tea a grazing. Galerie nyní začíná výraznou fotografií cateringu u fotbalového hřiště, výřez je zarovnán nahoru pro zachování hřiště. Desktopový úvod a galerie vizuálně ověřeny.
+

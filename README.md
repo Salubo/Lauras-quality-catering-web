@@ -51,3 +51,7 @@ Salubo byl prohlédnut jako reference organizace projektu. Jeho zdrojové soubor
 Běžné texty 18–20 px, navigace a tlačítka 16 px, popisky formuláře 16 px. Odstraněna horní lišta, dekorace a dvě opakující se obsahové sekce. Nabídka má tři stejně velké sloupce, galerie tři fotografie. Všechny původní kategorie zůstávají v nabídce i formuláři.
 
 Na stránce jsou použity pouze food-1, food-3, food-8 a food-9; fotografie s viditelným topením jsou z prezentace vyřazeny. Originály v repozitáři zůstávají zachovány. Desktopový náhled nabídky byl vizuálně ověřen po úpravě.
+
+## Design v4
+Světlý krémový úvod a hlavička, zelený text s teplým terakotovým akcentem, fotografie bez tmavého překryvu. Vyřazena food-9 z nabídky i galerie, nahrazena food-3. Desktopový úvod byl vizuálně ověřen.
+

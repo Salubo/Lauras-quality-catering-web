@@ -1,6 +1,17 @@
 # Laura’s Quality Catering
 
-Samostatný jednostránkový web v angličtině. Vizuální návrh vychází z dodané reference, používá vlastní fotografie klienta. Bez instalace balíčků; stačí Node.js 18+.
+Samostatný jednostránkový web v angličtině. Druhý návrh má fotografický úvod přes celou šířku, tmavě zelenou a slonovinovou paletu, výraznou serifovou typografii a nepravidelné rozložení fotografií. Používá vlastní fotografie klienta. Bez instalace balíčků; stačí Node.js 18+.
+
+## Design v2
+
+Směr byl přepracován podle referencí Talkington Bates (důraz na jídlo a catering), La Bandera (restaurační atmosféra a práce s menu), Mollie’s (velké fotografické plochy, jasné akce) a Browns (pohostinnost a příležitosti). Jde o vlastní kompozici, bez kopírování jejich značek, fotografií nebo textů.
+
+- https://www.talkingtonbates.co.uk/
+- https://labandera.co.uk/
+- https://mollies.com/
+- https://www.browns-restaurants.co.uk/
+
+Nově je přidáno ruční přepínání recenzí; bez JavaScriptu zůstanou všechny viditelné. Ověřeno v desktopovém prohlížeči: úvod, nabídka, výběr menu do formuláře, přepínání recenzí a otevření/zavření fotky v galerii. Mobilní rozložení je připraveno pomocí media queries, nebylo samostatně ověřeno na mobilním zařízení.
 
 ## Spuštění
 

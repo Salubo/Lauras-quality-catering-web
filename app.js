@@ -12,4 +12,16 @@ document.querySelector('#enquiry').addEventListener('submit',event=>{event.preve
 const dialog=document.querySelector('#lightbox');
 document.querySelectorAll('[data-photo]').forEach(button=>button.addEventListener('click',()=>{const img=button.querySelector('img');dialog.querySelector('img').src=img.src;dialog.querySelector('img').alt=img.alt;dialog.querySelector('p').textContent=img.alt;dialog.showModal();}));
 dialog.querySelector('.close').addEventListener('click',()=>dialog.close());
+const reviews=document.querySelector('#reviews');
+const quotes=[...reviews.querySelectorAll('figure')];
+let quoteIndex=0;
+function showQuote(index){
+  quoteIndex=(index+quotes.length)%quotes.length;
+  quotes.forEach((quote,i)=>{quote.hidden=i!==quoteIndex;});
+  document.querySelector('#quote-count').textContent=`${String(quoteIndex+1).padStart(2,'0')} / ${String(quotes.length).padStart(2,'0')}`;
+}
+reviews.classList.add('enhanced');
+document.querySelector('#quote-prev').addEventListener('click',()=>showQuote(quoteIndex-1));
+document.querySelector('#quote-next').addEventListener('click',()=>showQuote(quoteIndex+1));
+showQuote(0);
 dialog.addEventListener('click',event=>{if(event.target===dialog){const bounds=dialog.getBoundingClientRect();if(event.clientX<bounds.left||event.clientX>bounds.right||event.clientY<bounds.top||event.clientY>bounds.bottom)dialog.close();}});
